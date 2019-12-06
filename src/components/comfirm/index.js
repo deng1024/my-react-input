@@ -1,3 +1,11 @@
+/*
+ * @Author: deng
+ * @Date: 2019-12-06 14:00:10
+ * @LastEditTime: 2019-12-06 15:35:31
+ * @Description: comfirm 方法组件
+ * @FilePath: \my-react-stuff\src\components\comfirm\index.js
+ */
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
