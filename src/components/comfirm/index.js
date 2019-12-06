@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 
 function Comfirm(props) {
-  const { title = '提示', msg = 'this is a message' } = props;
+  const { title, msg } = props;
   return (
     <>
       <div className="comf-wrapper">
@@ -62,9 +62,12 @@ function hideComf() {
 }
 
 export default function comfirm(title, msg) {
+  if (arguments.length === 0) {
+    throw new Error("请传入要显示的comfirm语句！")
+  }
   if (arguments.length === 1) {
     msg = arguments[0];
-    title = '提示';
+    title = '';
   }
   node = node || document.createElement('div');
   document.body.appendChild(node);
