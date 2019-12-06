@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-import Test from './views/testInput';
+// import Test from './views/testInput';
+import Test from './views/testComf';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Test />, document.getElementById('root'));
