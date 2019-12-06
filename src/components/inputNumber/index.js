@@ -1,12 +1,12 @@
 /*
  * @Author: deng
  * @Date: 2019-12-06 11:14:11
- * @LastEditTime: 2019-12-06 15:36:15
+ * @LastEditTime: 2019-12-06 15:47:44
  * @Description: input组件 受控传value 非受控传defaultValue
  * @FilePath: \my-react-stuff\src\components\inputNumber\index.js
  */
 
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useMemo } from 'react';
 
 export default function InputNumber(props) {
   // 定义组件内部value变量， 如果props传进了defaultValue，则value初始值设为defaultValue
